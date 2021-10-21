@@ -3,10 +3,10 @@
 % September 2021
 
 # NAME
-mm –– Create makefiles quickly.
+mm –– Create makefiles easily.
 
 # SYNOPSIS
-**mm** \[*–q* | *––quiet*\] –t | ––type \<*type*\> \<*name*\> \
+**mm** \[*–q* | *––quiet*\] *–t* | *––type* \<*type*\> \<*name*\> \
 **mm** *–h* | *––help* \
 **mm** *–V* | *––version*
 
