@@ -18,6 +18,7 @@ install: $(PROG)
 	cp -f $(PROG) $(BIN_INSTALL_PATH)
 	@echo "$(PROG) installed to $(BIN_INSTALL_PATH)."
 	@echo "Installing man pages ..."
+	pandoc $(MAN_SRC).md -s -t man -o $(MAN_SRC)
 	cp -f $(MAN_SRC) $(MAN_INSTALL_PATH)
 	@echo "Man pages installed to $(MAN_INSTALL_PATH)."
 	@echo "Installation successfull."
